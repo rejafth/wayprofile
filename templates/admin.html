@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<meta name="csrf" content="{{ csrf }}">
+<title>Dashboard Admin</title>
+<link rel="stylesheet" href="{{ asset('admin.css') }}">
+</head>
+<body class="app">
+<aside id="side">
+<div class="brand">{% if logo %}<img src="{{ logo }}" alt="">{% endif %}<b>{{ brand }}</b><small>Dashboard admin</small></div>
+<nav id="nav" aria-label="Bagian website"></nav>
+<div class="sfoot">
+<a href="/" target="_blank" rel="noopener">Lihat website</a>
+<form method="post" action="/admin/logout"><input type="hidden" name="csrf" value="{{ csrf }}"><button type="submit" class="link">Keluar ({{ user }})</button></form>
+</div>
+</aside>
+<main>
+<header class="top">
+<button id="menu" type="button" aria-label="Buka menu">Menu</button>
+<div class="ttl"><h1 id="title">Memuat...</h1><p id="desc" class="muted"></p></div>
+<div class="actions"><button id="reset" type="button" class="btn ghost" hidden>Kembalikan bawaan</button><button id="save" type="button" class="btn" hidden>Simpan</button></div>
+</header>
+<div id="panel"></div>
+</main>
+<div id="toast" role="status"></div>
+<script type="application/json" id="schema">{{ schema|tojson }}</script>
+<script src="{{ asset('admin.js') }}" defer></script>
+</body>
+</html>

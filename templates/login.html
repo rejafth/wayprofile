@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Masuk Admin</title>
+<link rel="stylesheet" href="{{ asset('admin.css') }}">
+</head>
+<body class="login">
+<main class="lcard">
+{% if logo %}<img class="llogo" src="{{ logo }}" alt="{{ brand }}">{% endif %}
+<h1>Masuk Admin</h1>
+<p class="muted">Kelola isi website {{ brand }}.</p>
+{% if error %}<div class="err" role="alert">{{ error }}</div>{% endif %}
+<form method="post" action="/admin/login">
+<input type="hidden" name="csrf" value="{{ csrf }}">
+<label>Username<input name="username" required autofocus autocomplete="username" maxlength="64"></label>
+<label>Kata sandi<input name="password" type="password" required autocomplete="current-password" maxlength="256"></label>
+<button class="btn" type="submit">Masuk</button>
+</form>
+<a class="muted" href="/">Kembali ke website</a>
+</main>
+</body>
+</html>

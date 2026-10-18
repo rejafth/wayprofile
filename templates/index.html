@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{{ site.meta_title }}</title>
+<meta name="description" content="{{ site.meta_description }}">
+<meta property="og:title" content="{{ site.meta_title }}">
+<meta property="og:description" content="{{ site.meta_description }}">
+{% if site.favicon or site.logo %}<link rel="icon" href="{{ site.favicon or site.logo }}">{% endif %}
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=Public+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="{{ asset('site.css') }}">
+<style nonce="{{ nonce }}">{{ theme_css|safe }}</style>
+</head>
+<body>
+<header><div class="wrap">
+<a class="logo" href="#" aria-label="{{ site.brand_name }}">{% if site.logo %}<img src="{{ site.logo }}" alt="{{ site.brand_name }}">{% endif %}<span class="co"><b>{{ name1 }}{% if name2 %} <em>{{ name2 }}</em>{% endif %}</b>{% if site.slogan %}<small>{{ site.slogan }}</small>{% endif %}</span></a>
+<nav aria-label="Menu utama"><a href="#tentang">Tentang</a><a href="#layanan">Layanan</a><a href="#katalog">Katalog</a><a href="#portofolio">Portofolio</a><a href="#kontak">Kontak</a>{% if site.cta_label %}<a class="btn pri sm" href="{{ wa_link(contact.whatsapp, contact.wa_message) }}" target="_blank" rel="noopener">{{ site.cta_label }}</a>{% endif %}</nav>
+</div></header>
+
+<main class="wrap">
+<div class="hero">
+<div>
+<h1>{{ hero.title }}</h1>
+<p class="lead">{{ hero.text }}</p>
+<div class="btns">
+{% if hero.btn1_label %}<a class="btn pri" href="{{ hero.btn1_link or '#katalog' }}"{% if hero.btn1_link.startswith('http') %} target="_blank" rel="noopener"{% endif %}>{{ hero.btn1_label }}</a>{% endif %}
+{% if hero.btn2_label %}<a class="btn" href="{{ hero.btn2_link or '#kontak' }}"{% if hero.btn2_link.startswith('http') %} target="_blank" rel="noopener"{% endif %}>{{ hero.btn2_label }}</a>{% endif %}
+</div>
+</div>
+<div class="vis">{% if hero.image %}<img class="himg" src="{{ hero.image }}" alt="">{% else %}<div aria-hidden="true"><svg viewBox="0 0 520 360">
+<g fill="none" stroke-width="3" stroke-linecap="round"><path class="flow sa" d="M104 240H128V188H150"/><path class="flow sg" d="M404 150H436V124H452"/><path class="flow sg" d="M404 210H436V261H452"/><path class="flow sa" d="M275 264V300"/></g>
+<rect x="22" y="140" width="82" height="196" rx="8" fill="#0A2530" stroke="#5fb4cc" stroke-width="2"/>
+<g fill="#14394a" stroke="#2f6e85"><rect x="30" y="150" width="66" height="26" rx="3"/><rect x="30" y="186" width="66" height="26" rx="3"/><rect x="30" y="222" width="66" height="26" rx="3"/><rect x="30" y="258" width="66" height="26" rx="3"/><rect x="30" y="294" width="66" height="26" rx="3"/></g><g><circle cx="84" cy="163" r="3" class="fg"/><rect x="38" y="161" width="24" height="4" rx="2" fill="#5fb4cc"/><circle cx="84" cy="199" r="3" class="fa"/><rect x="38" y="197" width="24" height="4" rx="2" fill="#5fb4cc"/><circle cx="84" cy="235" r="3" class="fg"/><rect x="38" y="233" width="24" height="4" rx="2" fill="#5fb4cc"/><circle cx="84" cy="271" r="3" class="fa"/><rect x="38" y="269" width="24" height="4" rx="2" fill="#5fb4cc"/><circle cx="84" cy="307" r="3" class="fg"/><rect x="38" y="305" width="24" height="4" rx="2" fill="#5fb4cc"/></g>
+<rect x="150" y="56" width="254" height="212" rx="12" fill="#F2F8F9"/>
+<path d="M150 68a12 12 0 0 1 12-12h230a12 12 0 0 1 12 12v16H150z" class="fb"/>
+<circle cx="166" cy="70" r="3.5" fill="#fff"/><circle cx="178" cy="70" r="3.5" class="fg"/><circle cx="190" cy="70" r="3.5" class="fa"/>
+<text x="290" y="74" text-anchor="middle" fill="#fff" font-size="11" font-family="monospace">waysolve.com</text>
+<rect x="150" y="84" width="52" height="184" fill="#DCEBEF"/><rect x="160" y="98" width="32" height="6" rx="3" class="fb"/><rect x="160" y="114" width="26" height="6" rx="3" fill="#9fb4bb"/><rect x="160" y="130" width="30" height="6" rx="3" fill="#9fb4bb"/><rect x="160" y="146" width="22" height="6" rx="3" fill="#9fb4bb"/>
+<rect x="216" y="98" width="90" height="7" rx="3.5" class="fa"/><rect x="228" y="112" width="130" height="7" rx="3.5" class="fg"/><rect x="228" y="126" width="76" height="7" rx="3.5" fill="#9fb4bb"/><rect x="240" y="140" width="104" height="7" rx="3.5" class="fa"/><rect x="228" y="154" width="58" height="7" rx="3.5" fill="#9fb4bb"/><rect x="216" y="168" width="44" height="7" rx="3.5" class="fg"/>
+<rect x="216" y="188" width="176" height="68" rx="8" fill="#DCEBEF"/>
+<rect x="228" y="226" width="14" height="20" rx="2" class="fa"/><rect x="250" y="214" width="14" height="32" rx="2" class="fg"/><rect x="272" y="202" width="14" height="44" rx="2" class="fa"/><rect x="294" y="216" width="14" height="30" rx="2" class="fg"/><rect x="316" y="208" width="14" height="38" rx="2" class="fa"/><path d="M228 232L257 220 279 206 301 220 323 210" fill="none" class="sb" stroke-width="2"/>
+<g transform="translate(452 84)"><rect y="30" width="52" height="20" rx="6" fill="#0A2530" stroke="#5fb4cc" stroke-width="2"/><circle cx="12" cy="40" r="2.5" class="fg"/><circle cx="22" cy="40" r="2.5" class="fa"/><path d="M8 20Q26 2 44 20M16 26Q26 16 36 26" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round"/></g>
+<g transform="translate(452 236)"><path d="M6 14V4H0" fill="none" stroke="#5fb4cc" stroke-width="3"/><rect y="14" width="52" height="22" rx="5" fill="#0A2530" stroke="#5fb4cc" stroke-width="2"/><circle cx="36" cy="25" r="7" class="fa" stroke="#fff" stroke-width="2"/><circle cx="10" cy="25" r="2.5" class="fg"/></g>
+<g transform="translate(205 300)"><rect width="140" height="38" rx="8" fill="#0A2530" stroke="#5fb4cc" stroke-width="2"/><rect x="12" y="11" width="10" height="14" rx="2" fill="#14394a" stroke="#2f6e85"/><circle cx="17" cy="8" r="1.8" class="fa"/><rect x="27" y="11" width="10" height="14" rx="2" fill="#14394a" stroke="#2f6e85"/><circle cx="32" cy="8" r="1.8" class="fg"/><rect x="42" y="11" width="10" height="14" rx="2" fill="#14394a" stroke="#2f6e85"/><circle cx="47" cy="8" r="1.8" class="fg"/><rect x="57" y="11" width="10" height="14" rx="2" fill="#14394a" stroke="#2f6e85"/><circle cx="62" cy="8" r="1.8" class="fa"/><rect x="72" y="11" width="10" height="14" rx="2" fill="#14394a" stroke="#2f6e85"/><circle cx="77" cy="8" r="1.8" class="fg"/><rect x="87" y="11" width="10" height="14" rx="2" fill="#14394a" stroke="#2f6e85"/><circle cx="92" cy="8" r="1.8" class="fg"/><rect x="102" y="11" width="10" height="14" rx="2" fill="#14394a" stroke="#2f6e85"/><circle cx="107" cy="8" r="1.8" class="fa"/><rect x="117" y="11" width="10" height="14" rx="2" fill="#14394a" stroke="#2f6e85"/><circle cx="122" cy="8" r="1.8" class="fg"/></g></svg></div>{% endif %}
+{% if hero.tags %}<div class="vtags">{% for t in hero.tags %}<span>{{ t }}</span>{% endfor %}</div>{% endif %}</div>
+</div>
+
+{% if clients["items"] %}<div class="trust"><h2 class="th">{{ clients.title }}</h2><ul class="tr">
+{% for it in clients["items"] %}<li><i>{% if it.logo %}<img src="{{ it.logo }}" alt="">{% else %}{{ it.initials or initials(it.name) }}{% endif %}</i><div><b>{{ it.name }}</b>{% if it.sector %}<span>{{ it.sector }}</span>{% endif %}</div></li>
+{% endfor %}</ul></div>{% endif %}
+
+<section id="tentang">
+<div class="about">
+<div><h2>{{ about.title }}</h2><p class="sub">{{ about.text }}</p>{% if about.button_label %}<a class="btn" href="#kontak">{{ about.button_label }}</a>{% endif %}</div>
+{% if about["pillars"] %}<ul>{% for a, b in pairs(about["pillars"]) %}<li><b>{{ a }}</b>{% if b %}<span>{{ b }}</span>{% endif %}</li>{% endfor %}</ul>{% endif %}
+</div>
+</section>
+
+<section id="layanan">
+<h2>{{ services.title }}</h2>
+<p class="sub">{{ services.subtitle }}</p>
+<div class="svc">
+{% for s in services["items"] %}<div><h3>{{ s.title }}{% if s.badge %} <em>{{ s.badge }}</em>{% endif %}</h3><ul>{% for x in s.points %}<li>{{ x }}</li>{% endfor %}</ul></div>
+{% endfor %}</div>
+</section>
+
+<section id="katalog">
+<h2>{{ products.title }}</h2>
+<p class="sub">{{ products.subtitle }}</p>
+<div class="tabs" id="tabs" role="group" aria-label="Kategori"><button class="tab" type="button" data-cat="Semua" aria-pressed="true">Semua</button>{% for ct in cats %}<button class="tab" type="button" data-cat="{{ ct }}" aria-pressed="false">{{ ct }}</button>{% endfor %}</div>
+<div class="grid" id="grid" data-more="{{ products.more_label }}" data-less="{{ products.less_label }}" aria-live="polite">
+{% for p in products["items"] %}<article class="card" data-cat="{{ p.category }}" data-feat="{{ 1 if p.featured else 0 }}">
+{% if p.image %}<img class="pimg" src="{{ p.image }}" alt="{{ p.name }}" loading="lazy">{% else %}<div class="thumb">{{ p.category }}</div>{% endif %}
+<div class="cb"><h3>{{ p.name }}</h3><ul>{% for x in p.points %}<li>{{ x }}</li>{% endfor %}</ul>
+<div class="price">{% if p.price %}<small>{{ p.price_label }}</small>{{ p.price|rupiah }}{% else %}<small>Harga</small>Hubungi kami{% endif %}</div>
+<a class="btn sm" href="{{ wa_link(contact.whatsapp, products.wa_text ~ " " ~ p.name) }}" target="_blank" rel="noopener">{{ products.btn_label }}</a></div>
+</article>
+{% endfor %}</div>
+<div class="more" id="more"></div>
+{% if products.note %}<p class="note">{{ products.note }}</p>{% endif %}
+</section>
+
+<section id="portofolio">
+<h2>{{ projects.title }}</h2>
+<p class="sub">{{ projects.subtitle }}</p>
+<div class="pf">
+{% for p in projects["items"] %}<article class="pi">{% if p.image %}<img class="pic" src="{{ p.image }}" alt="{{ p.title }}" loading="lazy">{% else %}<div class="art" data-scene="{{ p.scene }}" data-color="{{ p.color }}" data-label="{{ p.title }}"></div>{% endif %}<div><h3>{{ p.title }}</h3><p>{{ p.description }}</p></div></article>
+{% endfor %}</div>
+{% if projects.note %}<p class="note">{{ projects.note }}</p>{% endif %}
+</section>
+
+<section id="kontak">
+<div class="contact">
+<div><h2>{{ contact.title }}</h2><p class="sub">{{ contact.text }}</p>
+<div class="btns">{% if contact.whatsapp %}<a class="btn pri" href="{{ wa_link(contact.whatsapp, contact.wa_message) }}" target="_blank" rel="noopener">{{ contact.wa_button }}</a>{% endif %}{% if contact.instagram %}<a class="btn" href="https://instagram.com/{{ contact.instagram }}" target="_blank" rel="noopener">Instagram @{{ contact.instagram }}</a>{% endif %}</div></div>
+<dl>
+{% if site.legal_name %}<dt>Perusahaan</dt><dd>{{ site.legal_name }}</dd>{% endif %}
+{% if contact.address %}<dt>Alamat</dt><dd>{{ contact.address }}</dd>{% endif %}
+{% if contact.whatsapp %}<dt>WhatsApp</dt><dd>{{ contact.whatsapp_display or contact.whatsapp }}</dd>{% endif %}
+{% if contact.instagram %}<dt>Instagram</dt><dd>@{{ contact.instagram }}</dd>{% endif %}
+{% if contact.email %}<dt>Email</dt><dd><a href="mailto:{{ contact.email }}">{{ contact.email }}</a></dd>{% endif %}
+{% if contact.hours %}<dt>Jam layanan</dt><dd>{{ contact.hours }}</dd>{% endif %}
+</dl>
+</div>
+</section>
+</main>
+
+<footer><div class="wrap">&copy; {{ year }} {{ site.legal_name or site.brand_name }}. {{ site.footer }}</div></footer>
+<script src="{{ asset('site.js') }}" defer></script>
+</body>
+</html>

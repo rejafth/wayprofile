@@ -1,0 +1,520 @@
+{
+ "site": {
+  "brand_name": "Waysolve",
+  "company_name": "Warajaya Solve Techindo",
+  "legal_name": "CV Warajaya Solve Techindo",
+  "slogan": "Infrastruktur IT, jaringan, dan software",
+  "logo": "/static/default-logo.png",
+  "favicon": "",
+  "color_accent": "#19a1c8",
+  "color_green": "#98aa24",
+  "color_brand": "#0e6a86",
+  "cta_label": "Hubungi Kami",
+  "footer": "Semua hak dilindungi.",
+  "meta_title": "Waysolve | Infrastruktur IT, Jaringan, dan Software - CV Warajaya Solve Techindo",
+  "meta_description": "Konsultan IT sejak 2019 di Surabaya: sistem informasi, website, instalasi jaringan, CCTV, rancang bangun komputer, dan pengadaan perangkat."
+ },
+ "hero": {
+  "title": "Support your IT and digital needs.",
+  "text": "Kami membangun infrastruktur IT, jaringan, dan software untuk bisnis, sekolah, dan instansi. Proses bisnis Anda jadi lebih simpel lewat digitalisasi.",
+  "btn1_label": "Lihat katalog",
+  "btn1_link": "#katalog",
+  "btn2_label": "Konsultasi gratis",
+  "btn2_link": "https://wa.me/6285156315663",
+  "tags": [
+   "Infrastruktur IT",
+   "Jaringan",
+   "Software engineering"
+  ],
+  "image": ""
+ },
+ "about": {
+  "title": "Konsultan IT sejak 2019",
+  "text": "Kami membantu mengatasi masalah Anda di bidang IT dan digitalisasi: pengembangan aplikasi website dan mobile, rancang bangun sistem informasi, instalasi jaringan, dan pengadaan. Kami berkomitmen sebagai konsultan IT profesional dengan layanan purna jual.",
+  "button_label": "Pelajari lebih lanjut",
+  "pillars": [
+   "Totalitas | Pekerjaan selesai sesuai tenggat.",
+   "Kualitas | Siap pakai sesuai kebutuhan Anda.",
+   "Layanan purna jual | Perawatan dan bantuan setelah sistem atau jaringan berjalan."
+  ]
+ },
+ "services": {
+  "title": "Layanan kami",
+  "subtitle": "Untuk perorangan maupun perusahaan: sistem, jaringan, sampai intranet.",
+  "items": [
+   {
+    "title": "Sistem Informasi",
+    "points": [
+     "Web, Android, dan desktop",
+     "Tampilan responsif",
+     "Konsultasi gratis",
+     "Kebutuhan menyesuaikan"
+    ],
+    "badge": ""
+   },
+   {
+    "title": "Website Profile",
+    "points": [
+     "Web profile dan portofolio",
+     "Web promosi",
+     "Web katalog"
+    ],
+    "badge": ""
+   },
+   {
+    "title": "Instalasi Jaringan",
+    "points": [
+     "Lab komputer dan Wi-Fi",
+     "Gedung dan antar-site, fiber optik",
+     "Konfigurasi router dan switch"
+    ],
+    "badge": ""
+   },
+   {
+    "title": "CCTV",
+    "points": [
+     "Pemasangan baru dan penambahan",
+     "Migrasi analog ke digital",
+     "Pantau jarak jauh dan perawatan"
+    ],
+    "badge": ""
+   },
+   {
+    "title": "Rancang Bangun Komputer",
+    "points": [
+     "Server dan data center",
+     "Lab dan komputer perkantoran",
+     "PC personal, editing, dan gaming"
+    ],
+    "badge": ""
+   },
+   {
+    "title": "Web Hosting",
+    "points": [
+     "Penyimpanan SSD",
+     "Bandwidth, subdomain, database, dan email tanpa batas",
+     "Remote MySQL dan MultiPHP"
+    ],
+    "badge": "Segera hadir"
+   }
+  ]
+ },
+ "products": {
+  "title": "Katalog produk dan paket",
+  "subtitle": "Perangkat hardware dan paket layanan pilihan kami. Tekan Lihat Produk Lainnya untuk melihat semuanya.",
+  "note": "Harga perangkat adalah contoh. Harga paket layanan adalah harga mulai dari, nilai akhir menyesuaikan kebutuhan Anda.",
+  "more_label": "Lihat Produk Lainnya",
+  "less_label": "Tampilkan Lebih Sedikit",
+  "btn_label": "Tanya via WhatsApp",
+  "wa_text": "Halo Waysolve, saya tertarik dengan:",
+  "items": [
+   {
+    "category": "CCTV",
+    "name": "Kamera IP 4 MP",
+    "price": 480000,
+    "price_label": "Harga",
+    "points": [
+     "Resolusi 4 MP",
+     "Jelas siang dan malam",
+     "Tahan hujan"
+    ],
+    "featured": true,
+    "image": ""
+   },
+   {
+    "category": "CCTV",
+    "name": "Kamera Dome Indoor 2 MP",
+    "price": 320000,
+    "price_label": "Harga",
+    "points": [
+     "Resolusi 2 MP",
+     "Untuk dalam ruangan",
+     "Bodi ringkas"
+    ],
+    "featured": false,
+    "image": ""
+   },
+   {
+    "category": "CCTV",
+    "name": "Perekam 16 Kanal",
+    "price": 2750000,
+    "price_label": "Harga",
+    "points": [
+     "16 kamera",
+     "Rekaman hingga 30 hari",
+     "Pantau lewat ponsel"
+    ],
+    "featured": false,
+    "image": ""
+   },
+   {
+    "category": "CCTV",
+    "name": "Hard Disk CCTV 2 TB",
+    "price": 950000,
+    "price_label": "Harga",
+    "points": [
+     "Khusus perekam CCTV",
+     "Siap nyala 24 jam",
+     "Kapasitas 2 TB"
+    ],
+    "featured": false,
+    "image": ""
+   },
+   {
+    "category": "Router dan Switch",
+    "name": "Router Gigabit 5 Port",
+    "price": 650000,
+    "price_label": "Harga",
+    "points": [
+     "5 port Gigabit",
+     "Firewall dan pembagian bandwidth",
+     "Cocok untuk kantor kecil"
+    ],
+    "featured": true,
+    "image": ""
+   },
+   {
+    "category": "Router dan Switch",
+    "name": "Router Dual-WAN 8 Port",
+    "price": 1450000,
+    "price_label": "Harga",
+    "points": [
+     "8 port",
+     "Dua jalur internet",
+     "Pindah jalur otomatis"
+    ],
+    "featured": false,
+    "image": ""
+   },
+   {
+    "category": "Router dan Switch",
+    "name": "Switch 24 Port Gigabit",
+    "price": 2300000,
+    "price_label": "Harga",
+    "points": [
+     "24 port Gigabit",
+     "Terkelola, siap VLAN",
+     "Ukuran rak standar"
+    ],
+    "featured": false,
+    "image": ""
+   },
+   {
+    "category": "Router dan Switch",
+    "name": "Switch PoE 8 Port",
+    "price": 1250000,
+    "price_label": "Harga",
+    "points": [
+     "8 port PoE",
+     "Daya kamera dan AP lewat kabel",
+     "Hemat kabel daya"
+    ],
+    "featured": true,
+    "image": ""
+   },
+   {
+    "category": "Wi-Fi",
+    "name": "Access Point Dinding",
+    "price": 890000,
+    "price_label": "Harga",
+    "points": [
+     "Wi-Fi 6 dual-band",
+     "Dipasang di dinding",
+     "Cocok untuk ruang kelas"
+    ],
+    "featured": true,
+    "image": ""
+   },
+   {
+    "category": "Wi-Fi",
+    "name": "Access Point Langit-langit",
+    "price": 1150000,
+    "price_label": "Harga",
+    "points": [
+     "Jangkauan luas",
+     "Dipasang di plafon",
+     "Daya lewat PoE"
+    ],
+    "featured": false,
+    "image": ""
+   },
+   {
+    "category": "Server dan Kabel",
+    "name": "Server Rak 1U",
+    "price": 14500000,
+    "price_label": "Harga",
+    "points": [
+     "Prosesor 8 inti",
+     "RAM 32 GB",
+     "Dua SSD"
+    ],
+    "featured": false,
+    "image": ""
+   },
+   {
+    "category": "Server dan Kabel",
+    "name": "UPS 1500 VA",
+    "price": 1950000,
+    "price_label": "Harga",
+    "points": [
+     "Listrik cadangan",
+     "Untuk server dan jaringan",
+     "1500 VA"
+    ],
+    "featured": false,
+    "image": ""
+   },
+   {
+    "category": "Server dan Kabel",
+    "name": "Kabel UTP Cat6 305 m",
+    "price": 1350000,
+    "price_label": "Harga",
+    "points": [
+     "Satu boks 305 m",
+     "Tembaga murni",
+     "Siap pasang"
+    ],
+    "featured": false,
+    "image": ""
+   },
+   {
+    "category": "Server dan Kabel",
+    "name": "Patch Panel 24 Port",
+    "price": 420000,
+    "price_label": "Harga",
+    "points": [
+     "24 port",
+     "Penahan kabel",
+     "Label jalur"
+    ],
+    "featured": false,
+    "image": ""
+   },
+   {
+    "category": "Paket Sekolah",
+    "name": "Website Sekolah",
+    "price": 1500000,
+    "price_label": "Mulai dari",
+    "points": [
+     "Statis atau CMS dinamis",
+     "Penyimpanan 2 GB",
+     "Siap pakai"
+    ],
+    "featured": true,
+    "image": ""
+   },
+   {
+    "category": "Paket Sekolah",
+    "name": "Website PPDB Sekolah",
+    "price": 7100000,
+    "price_label": "Mulai dari",
+    "points": [
+     "Hingga 1.000 pendaftar",
+     "Penyimpanan 10 GB",
+     "Siap untuk sistem langganan"
+    ],
+    "featured": false,
+    "image": ""
+   },
+   {
+    "category": "Paket Sekolah",
+    "name": "Sistem dan Absensi Fingerprint",
+    "price": 8600000,
+    "price_label": "Mulai dari",
+    "points": [
+     "Instalasi, konfigurasi, pelaporan",
+     "Pelatihan administrator",
+     "Hingga 1.000 siswa"
+    ],
+    "featured": false,
+    "image": ""
+   },
+   {
+    "category": "Paket Sekolah",
+    "name": "Sistem Pegawai Sekolah",
+    "price": 7100000,
+    "price_label": "Mulai dari",
+    "points": [
+     "Statis atau CMS dinamis",
+     "Penyimpanan 10 GB",
+     "Siap pakai"
+    ],
+    "featured": false,
+    "image": ""
+   },
+   {
+    "category": "Paket Website",
+    "name": "Website atau Sistem Kecil",
+    "price": 800000,
+    "price_label": "Mulai dari",
+    "points": [
+     "Statis atau dinamis",
+     "Penyimpanan gratis 2 bulan",
+     "Konsultasi gratis"
+    ],
+    "featured": true,
+    "image": ""
+   },
+   {
+    "category": "Paket Website",
+    "name": "Website atau Sistem Menengah",
+    "price": 4500000,
+    "price_label": "Mulai dari",
+    "points": [
+     "Statis atau dinamis",
+     "Penyimpanan gratis 2 bulan",
+     "Konsultasi gratis"
+    ],
+    "featured": false,
+    "image": ""
+   },
+   {
+    "category": "Paket Website",
+    "name": "Website atau Sistem Besar",
+    "price": 7500000,
+    "price_label": "Mulai dari",
+    "points": [
+     "Statis atau dinamis",
+     "Penyimpanan gratis 2 bulan",
+     "Konsultasi gratis"
+    ],
+    "featured": false,
+    "image": ""
+   },
+   {
+    "category": "Paket Jaringan",
+    "name": "Instalasi Lab Komputer",
+    "price": 1500000,
+    "price_label": "Mulai dari",
+    "points": [
+     "2 teknisi, 1 hari",
+     "Konfigurasi switch dan router",
+     "Garansi 1 bulan"
+    ],
+    "featured": true,
+    "image": ""
+   },
+   {
+    "category": "Paket Jaringan",
+    "name": "Tambah Koneksi Wi-Fi",
+    "price": 600000,
+    "price_label": "Mulai dari",
+    "points": [
+     "Pasang dan konfigurasi AP",
+     "Penarikan kabel",
+     "Garansi 7 hari"
+    ],
+    "featured": true,
+    "image": ""
+   },
+   {
+    "category": "Paket Jaringan",
+    "name": "Perbaikan dan Perawatan",
+    "price": 150000,
+    "price_label": "Mulai dari",
+    "points": [
+     "Semua urusan perawatan jaringan"
+    ],
+    "featured": false,
+    "image": ""
+   },
+   {
+    "category": "Paket Jaringan",
+    "name": "Instalasi Gedung atau Site",
+    "price": 2000000,
+    "price_label": "Mulai dari",
+    "points": [
+     "Kabel antar-site dan fiber optik",
+     "Infrastruktur jaringan",
+     "Bisa VPN site to site"
+    ],
+    "featured": false,
+    "image": ""
+   }
+  ]
+ },
+ "projects": {
+  "title": "Portofolio",
+  "subtitle": "Layanan yang kami sediakan dan sudah kami kerjakan, semuanya siap pakai sesuai kebutuhan.",
+  "note": "",
+  "items": [
+   {
+    "title": "Wiring Server",
+    "description": "Networking",
+    "image": "",
+    "scene": "rack",
+    "color": "#47b2e4"
+   },
+   {
+    "title": "Satria Bertiga Indonesia",
+    "description": "Web",
+    "image": "",
+    "scene": "browser",
+    "color": "#37517e"
+   },
+   {
+    "title": "SIMERDA Pemkot Surabaya",
+    "description": "Sistem informasi pergudangan Pemkot Surabaya",
+    "image": "",
+    "scene": "dash",
+    "color": "#e8b923"
+   },
+   {
+    "title": "Bandwidth Management (MikroTik)",
+    "description": "Web sistem",
+    "image": "",
+    "scene": "dash",
+    "color": "#47b2e4"
+   },
+   {
+    "title": "I-OT.net",
+    "description": "Web sistem",
+    "image": "",
+    "scene": "dash",
+    "color": "#6fd1a3"
+   },
+   {
+    "title": "LPPM UPN Veteran Jatim",
+    "description": "Website",
+    "image": "",
+    "scene": "browser",
+    "color": "#2f7d4f"
+   }
+  ]
+ },
+ "clients": {
+  "title": "Dipercaya instansi dan perusahaan",
+  "items": [
+   {
+    "name": "Pemkot Surabaya",
+    "sector": "Pemerintahan: sistem informasi pergudangan SIMERDA",
+    "initials": "PS",
+    "logo": ""
+   },
+   {
+    "name": "UPN Veteran Jatim",
+    "sector": "Pendidikan: website LPPM",
+    "initials": "UP",
+    "logo": ""
+   },
+   {
+    "name": "Satria Bertiga Indonesia",
+    "sector": "Swasta: website perusahaan",
+    "initials": "SB",
+    "logo": ""
+   }
+  ]
+ },
+ "contact": {
+  "title": "Mulai dari konsultasi gratis",
+  "text": "Tanyakan soal proyek atau konsultasikan apa saja lewat WhatsApp atau Instagram kami.",
+  "whatsapp": "6285156315663",
+  "whatsapp_display": "+62 851 5631 5663",
+  "wa_message": "Halo Waysolve, saya ingin konsultasi kebutuhan IT.",
+  "wa_button": "Chat WhatsApp",
+  "instagram": "waysolve",
+  "email": "",
+  "address": "Pakal Residence Blok A5B, Surabaya, Jawa Timur",
+  "hours": ""
+ }
+}
